@@ -49,11 +49,11 @@ function App() {
           <div className="headline" id="headline">26.NOV</div>
           <div id="countdown">
             <ul>
-              <li><span id="days">134 </span>dias</li>
+              <li><span id="days">000 </span>dias</li>
               <li><span id="dots">:</span></li>
-              <li><span id="hours">20 </span>horas</li>
+              <li><span id="hours">00 </span>horas</li>
               <li><span id="dots">:</span></li>
-              <li><span id="minutes">15 </span>minutos</li>
+              <li><span id="minutes">00 </span>minutos</li>
             </ul>
           </div>
         </S.Counter>
@@ -70,7 +70,7 @@ function App() {
           <button type="submit">CADASTRAR</button>
         </form>
         {registered &&
-        <p>Parabéns! Você já se cadastrou com os dados acima. Caso queira, basta alterar e cadastrar novamente</p>
+        <p>Parabéns! Você já se cadastrou. Caso queira alterar os dados, basta cadastrar-se novamente</p>
         }
       </S.Lead>
     </S.Container>
