@@ -64,10 +64,19 @@ export const Counter = styled.div`
   & li span {
     display: block;
     font-size: 4rem;
+
+    @media(max-width: 768px) {
+      font-size: 3rem;
+    }
   }
+
 
   & li span#dots {
     margin: 0 20px;
+
+    @media(max-width: 768px) {
+      margin: 0 5px;
+    }
   }
 `;
 
